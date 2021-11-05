@@ -51,7 +51,6 @@ def checkoutForBranch(para) {
                         shallow:true],
                     [$class:'SparseCheckoutPaths',
                         sparseCheckoutPaths:filesAsPaths]
-                    ]
                 ],
                 userRemoteConfigs: [[
                     credentialsId: credentialsId,
